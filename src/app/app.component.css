@@ -1,11 +1,12 @@
-.whileNav{
-    display:flex;
-    align-items: baseline;
-    justify-content: space-between;
-    background-color: rgb(67, 67, 243);
-    color: rgb(237, 230, 243);
+.whileNav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: rgb(67, 67, 243);
+  color: rgb(237, 230, 243);
+  padding: 10px;
 }
-li{
-    display:inline;
-    padding: 20px;
+a {
+  color: white;
+  text-decoration: none;
 }

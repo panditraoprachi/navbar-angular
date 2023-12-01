@@ -1,6 +1,10 @@
 <div class="whileNav">
-<h3>NavBar Menu</h3>
-<ul>
-  <li *ngFor="let menu of menus">{{menu}}</li>
-</ul>
+  <h3>NavBar Menu</h3>
+  <a routerLink="">Home</a>
+  <a routerLink="services">Services</a>
+  <a routerLink="contactUs">Contact Us</a>
 </div>
+<router-outlet></router-outlet>
+<!-- <app-home></app-home>
+<app-services></app-services>
+<app-contact-us></app-contact-us> -->
